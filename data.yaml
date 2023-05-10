@@ -1,0 +1,14 @@
+path : ../data/dataset
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Pothole']
+
+roboflow:
+  workspace: project
+  project: pothole-detection-zn14h
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/project/pothole-detection-zn14h/dataset/2
